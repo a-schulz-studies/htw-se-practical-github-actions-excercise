@@ -1,7 +1,7 @@
 package example;
 
 public class Main {
-
+// das hier ist die Main
 	public static void main(String[] args) {
 		Town t = new Town("Dresden", 11);
 		System.out.println(t.toString());
