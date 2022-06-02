@@ -25,7 +25,11 @@ public class Town {
 	}
 
 	public void setResidents(int residents) {
+		// variant: exception
+		if (residents < 0)
+			throw new IllegalArgumentException("residents must be greater than 0: " + residents);
 		this.residents = residents;
+
 	}
 
 	@Override
